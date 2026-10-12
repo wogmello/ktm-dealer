@@ -1,0 +1,42 @@
+/* ==========================================================================
+   ESTILOS EXCLUSIVOS: PORTAL POWERWEAR (styles-powerwear.css)
+   ========================================================================== */
+body { background: #0e0e0e; color: #fff; font-family: 'Montserrat', sans-serif; margin: 0; }
+
+header {
+    background: rgba(14, 14, 14, 0.95); border-bottom: 3px solid #FF6600;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px 5%; position: sticky; top: 0; z-index: 100;
+}
+.logo { font-family: 'Teko', sans-serif; font-size: 2.2rem; }
+.logo span { color: #FF6600; }
+.logo i { color: #FF6600; }
+
+nav ul { display: flex; list-style: none; gap: 20px; }
+nav a { color: #B0B0B0; text-decoration: none; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; }
+nav a:hover, nav a.active { color: #FF6600; border-bottom: 2px solid #FF6600; }
+
+.btn-header { background: #FF6600; color: #fff; padding: 8px 20px; text-decoration: none; font-weight: 800; font-size: 0.85rem; border-radius: 3px; }
+
+.tienda-header { text-align: center; padding: 40px 20px 10px; }
+.tienda-header h2 { font-family: 'Teko', sans-serif; font-size: 3.5rem; color: #FF6600; text-transform: uppercase; margin: 0; }
+.tienda-header p { color: #B0B0B0; }
+
+.tienda-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; padding: 40px 8%; }
+
+.prod-card { background: #181818; border: 1px solid #282828; border-radius: 5px; position: relative; overflow: hidden; transition: 0.3s; }
+.prod-card:hover { border-color: #FF6600; transform: translateY(-5px); }
+
+.tag-part { position: absolute; top: 12px; right: 12px; background: #333; color: #fff; font-size: 0.7rem; font-weight: bold; padding: 3px 8px; border-radius: 2px; }
+.tag-part.orange { background: #FF6600; }
+
+.prod-card img { width: 100%; height: 200px; object-fit: cover; }
+.prod-details { padding: 20px; text-align: center; }
+.prod-details h4 { font-family: 'Teko', sans-serif; font-size: 1.6rem; margin-bottom: 5px; }
+.price { color: #FF6600; font-weight: 800; font-size: 1.2rem; margin-bottom: 15px; }
+
+.btn-buy { display: block; background: #25D366; color: #fff; text-decoration: none; padding: 10px; font-weight: bold; border-radius: 3px; text-transform: uppercase; font-size: 0.85rem; }
+.btn-buy:hover { background: #1da851; }
+
+footer { text-align: center; padding: 25px; border-top: 1px solid #222; font-size: 0.85rem; color: #B0B0B0; }
+footer span { color: #FF6600; font-weight: bold; }

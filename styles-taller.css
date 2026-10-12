@@ -1,0 +1,40 @@
+/* ==========================================================================
+   ESTILOS EXCLUSIVOS: PORTAL DE TALLER (styles-taller.css)
+   ========================================================================== */
+body { background: #0a0a0a; color: #fff; font-family: 'Montserrat', sans-serif; margin: 0; }
+
+header {
+    background: rgba(10, 10, 10, 0.95); border-bottom: 3px solid #FF6600;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 15px 5%; position: sticky; top: 0; z-index: 100;
+}
+.logo { font-family: 'Teko', sans-serif; font-size: 2.2rem; }
+.logo span { color: #FF6600; }
+.logo i { color: #FF6600; }
+
+nav ul { display: flex; list-style: none; gap: 20px; }
+nav a { color: #B0B0B0; text-decoration: none; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; }
+nav a:hover, nav a.active { color: #FF6600; border-bottom: 2px solid #FF6600; }
+
+.btn-header { background: #FF6600; color: #fff; padding: 8px 20px; text-decoration: none; font-weight: 800; font-size: 0.85rem; border-radius: 3px; }
+
+.taller-wrapper { min-height: 80vh; display: flex; justify-content: center; align-items: center; padding: 40px 20px; }
+.form-card { background: #161616; border: 1px solid #2a2a2a; border-top: 4px solid #FF6600; padding: 40px; width: 100%; max-width: 550px; border-radius: 5px; }
+
+.form-card h2 { font-family: 'Teko', sans-serif; font-size: 3rem; text-transform: uppercase; margin-bottom: 5px; color: #FF6600; }
+.form-card p { color: #B0B0B0; margin-bottom: 25px; font-size: 0.9rem; }
+
+.form-group { margin-bottom: 20px; text-align: left; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 0.85rem; text-transform: uppercase; }
+
+.form-group input, .form-group select {
+    width: 100%; padding: 12px; background: #0a0a0a; border: 1px solid #333;
+    color: #fff; border-radius: 3px; font-family: inherit; font-size: 0.9rem;
+}
+.form-group input:focus, .form-group select:focus { border-color: #FF6600; outline: none; }
+
+.btn-submit { width: 100%; background: #FF6600; color: #fff; border: none; padding: 14px; font-weight: 800; text-transform: uppercase; cursor: pointer; border-radius: 3px; font-size: 1rem; transition: 0.3s; }
+.btn-submit:hover { background: #e05500; }
+
+footer { text-align: center; padding: 25px; border-top: 1px solid #222; font-size: 0.85rem; color: #B0B0B0; }
+footer span { color: #FF6600; font-weight: bold; }

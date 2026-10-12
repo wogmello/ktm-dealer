@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTM | Agendar Cita de Taller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600;700&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Exclusivo de Taller -->
+    <link rel="stylesheet" href="styles-taller.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><i class="fa-solid fa-gauge-high"></i> KTM <span>DEALER</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="powerwear.html">PowerWear</a></li>
+                <li><a href="taller.html" class="active">Taller Citas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn-header"><i class="fa-solid fa-motorcycle"></i> Test Ride</a>
+    </header>
+
+    <section class="taller-wrapper">
+        <div class="form-card">
+            <h2>Reserva de Servicio Técnico</h2>
+            <p>Agenda tu mantenimiento con nuestros mecánicos certificados por fábrica.</p>
+
+            <form action="#">
+                <div class="form-group">
+                    <label>Nombre Completo:</label>
+                    <input type="text" placeholder="Ej. Juan Pérez" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Modelo de tu KTM:</label>
+                    <select required>
+                        <option value="">-- Selecciona tu Moto --</option>
+                        <option value="duke">KTM Duke (125 / 200 / 390 / 890 / 1290)</option>
+                        <option value="adventure">KTM Adventure (390 / 890 / 1290)</option>
+                        <option value="exc">KTM EXC Enduro / XC</option>
+                        <option value="rc">KTM RC Series</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Fecha Deseada:</label>
+                    <input type="date" required>
+                </div>
+
+                <button type="submit" class="btn-submit"><i class="fa-solid fa-calendar-check"></i> Confirmar Cita</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 <span>KTM Concesionario Oficial</span> - Portal Taller.</p>
+    </footer>
+
+</body>
+</html>
